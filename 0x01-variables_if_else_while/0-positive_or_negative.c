@@ -4,6 +4,7 @@
 /**
 * main - printf positive or negative when the number is 0
 * Returns: Always 0
+* description: program descriptionr
 */
 
 int main(void)
@@ -25,5 +26,6 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-return (0);
+
+	return (0);
 }
