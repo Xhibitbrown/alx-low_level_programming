@@ -2,9 +2,9 @@
 
 /**
 *main - print alphabet in lower case
-*Return: Always (0)
+*Return: Always
 */
-void print_alphabet(void)
+int main(void)
 
 {
 	char c;
