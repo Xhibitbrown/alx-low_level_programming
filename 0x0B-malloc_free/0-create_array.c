@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * create_aray - Main Entry
+ *create_array - Main Entry
  * @size: input
  * @c: input
  * Return: 0
