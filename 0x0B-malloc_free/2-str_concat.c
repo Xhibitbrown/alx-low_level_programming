@@ -1,9 +1,9 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
- * str_concat - Main Entry
+ *str_concat - Main Entry
  * @s1: input
  * @s2: input
  * Return: 0
@@ -33,7 +33,7 @@ char *str_concat(char *s1, char *s2)
 
 	ptr = ret;
 	while (*s1)
-		*ptr++ = *s2++;
+		*ptr++ = *s1++;
 	while (*s2)
 		*ptr++ = *s2++;
 	*ptr = 0;
