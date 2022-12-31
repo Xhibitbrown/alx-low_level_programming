@@ -29,7 +29,7 @@ int _strlen(char *str)
 *@src: The source string.
 */
 
-char *_strcopy(char *dest, char *src)
+char *strcopy(char *dest, char *src)
 {
 	int index = 0;
 
